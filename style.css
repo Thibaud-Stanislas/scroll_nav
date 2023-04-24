@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+
+nav{
+    color: yellow;
+    background: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+}
+h1{
+    margin: 30px;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
