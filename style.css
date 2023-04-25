@@ -4,20 +4,22 @@
     box-sizing: border-box;
 }
 body{
-    height: 200vh;
+    min-height: 400vh;
 }
 
 nav{
     color: yellow;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    position: fixed;
+    width: 100%;
     background: black;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.4s;
+    height: 60px;
+    top: 0px;
+    transition: 0.3s;
 }
 h1{
-    margin: 30px;
+    
     font-size: 30px;
 }
 ul{

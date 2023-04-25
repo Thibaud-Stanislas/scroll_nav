@@ -1,10 +1,10 @@
-const nav = document.querySelector("nav");
+let lastScroll = 0;
 
 window.addEventListener("scroll", () => {
-  console.log(window.scrollY);
-  if (window.scrollY > 50) {
-    nav.style.top = 0;
+  if (window.scrollY < lastScroll) {
+    navbar.style.top = 0;
   } else {
-    nav.style.top = "0";
+    navbar.style.top = "-60px";
   }
+  lastScroll = window.scrollY;
 });
